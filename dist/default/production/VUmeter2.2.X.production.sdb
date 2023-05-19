@@ -1,0 +1,472 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1459 ]
+[d frameptr 6 ]
+"29 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configADC.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"4 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configBaud.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"7 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configEUSART.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"34 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configOsc.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"9 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPCD8544.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"5 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPins.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"4 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configSPI.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"79 C:\Users\User\MPLABXProjects\VUmeter2.2.X\main.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"4 C:\Users\User\MPLABXProjects\VUmeter2.2.X\putch.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"5 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeCommand.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"5 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeData.c
+[e E2347 . `uc
+LO 0
+HI 1
+]
+"10 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configADC.c
+[v _configADC configADC `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configBaud.c
+[v _configBaud configBaud `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configEUSART.c
+[v _configEUSART configEUSART `(v  1 e 1 0 ]
+"31 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configOsc.c
+[v _configOsc configOsc `(v  1 e 1 0 ]
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPCD8544.c
+[v _configPCD8544 configPCD8544 `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPins.c
+[v _configPins configPins `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configSPI.c
+[v _configSPI configSPI `(v  1 e 1 0 ]
+"58 C:\Users\User\MPLABXProjects\VUmeter2.2.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\select0To47.c
+[v _select0To47 select0To47 `(v  1 e 1 0 ]
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\sendSPIbyte.c
+[v _sendSPIbyte sendSPIbyte `(v  1 e 1 0 ]
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeCommand.c
+[v _writeCommand writeCommand `(v  1 e 1 0 ]
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeData.c
+[v _writeData writeData `(v  1 e 1 0 ]
+"61 C:\Users\User\MPLABXProjects\VUmeter2.2.X/constants.h
+[v _adcVal adcVal `s  1 e 2 0 ]
+"64
+[v _sineLookUp sineLookUp `DC[181]s  1 e 362 0 ]
+"247
+[v _cosineLookUp cosineLookUp `DC[181]s  1 e 362 0 ]
+[s S886 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+]
+"445 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC12-16F1xxx_DFP/1.3.90/xc8\pic\include\proc\pic16f1459.h
+[u S893 . 1 `S886 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES893  1 e 1 @12 ]
+[s S570 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"489
+[u S576 . 1 `S570 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES576  1 e 1 @13 ]
+[s S549 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"531
+[u S558 . 1 `S549 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES558  1 e 1 @14 ]
+[s S806 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"593
+[u S815 . 1 `S806 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES815  1 e 1 @17 ]
+[s S444 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1017
+[u S448 . 1 `S444 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES448  1 e 1 @140 ]
+[s S281 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1046
+[u S287 . 1 `S281 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES287  1 e 1 @141 ]
+[s S22 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 TRISC3 1 0 :1:3 
+`uc 1 TRISC4 1 0 :1:4 
+`uc 1 TRISC5 1 0 :1:5 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"1088
+[u S31 . 1 `S22 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES31  1 e 1 @142 ]
+[s S352 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 IRCF 1 0 :4:2 
+`uc 1 SPLLMULT 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1526
+[s S357 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 IRCF0 1 0 :1:2 
+`uc 1 IRCF1 1 0 :1:3 
+`uc 1 IRCF2 1 0 :1:4 
+`uc 1 IRCF3 1 0 :1:5 
+]
+[u S364 . 1 `S352 1 . 1 0 `S357 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES364  1 e 1 @153 ]
+"1639
+[v _ADRESL ADRESL `VEuc  1 e 1 @155 ]
+"1659
+[v _ADRESH ADRESH `VEuc  1 e 1 @156 ]
+[s S70 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+"1704
+[s S74 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S82 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[u S85 . 1 `S70 1 . 1 0 `S74 1 . 1 0 `S82 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES85  1 e 1 @157 ]
+[s S105 . 1 `uc 1 ADPREF 1 0 :2:0 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS 1 0 :3:4 
+`uc 1 ADFM 1 0 :1:7 
+]
+"1780
+[s S110 . 1 `uc 1 ADPREF0 1 0 :1:0 
+`uc 1 ADPREF1 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 ADCS0 1 0 :1:4 
+`uc 1 ADCS1 1 0 :1:5 
+`uc 1 ADCS2 1 0 :1:6 
+]
+[u S117 . 1 `S105 1 . 1 0 `S110 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES117  1 e 1 @158 ]
+[s S455 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATA4 1 0 :1:4 
+`uc 1 LATA5 1 0 :1:5 
+]
+"1879
+[u S459 . 1 `S455 1 . 1 0 ]
+[v _LATAbits LATAbits `VES459  1 e 1 @268 ]
+[s S395 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"1908
+[u S401 . 1 `S395 1 . 1 0 ]
+[v _LATBbits LATBbits `VES401  1 e 1 @269 ]
+[s S528 . 1 `uc 1 LATC0 1 0 :1:0 
+`uc 1 LATC1 1 0 :1:1 
+`uc 1 LATC2 1 0 :1:2 
+`uc 1 LATC3 1 0 :1:3 
+`uc 1 LATC4 1 0 :1:4 
+`uc 1 LATC5 1 0 :1:5 
+`uc 1 LATC6 1 0 :1:6 
+`uc 1 LATC7 1 0 :1:7 
+]
+"1950
+[u S537 . 1 `S528 1 . 1 0 ]
+[v _LATCbits LATCbits `VES537  1 e 1 @270 ]
+"1995
+[v _CM1CON0 CM1CON0 `VEuc  1 e 1 @273 ]
+"2052
+[v _CM1CON1 CM1CON1 `VEuc  1 e 1 @274 ]
+"2124
+[v _CM2CON0 CM2CON0 `VEuc  1 e 1 @275 ]
+"2181
+[v _CM2CON1 CM2CON1 `VEuc  1 e 1 @276 ]
+[s S133 . 1 `uc 1 ADFVR 1 0 :2:0 
+`uc 1 CDAFVR 1 0 :2:2 
+`uc 1 . 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 FVRRDY 1 0 :1:6 
+`uc 1 FVREN 1 0 :1:7 
+]
+"2333
+[s S140 . 1 `uc 1 ADFVR0 1 0 :1:0 
+`uc 1 ADFVR1 1 0 :1:1 
+`uc 1 CDAFVR0 1 0 :1:2 
+`uc 1 CDAFVR1 1 0 :1:3 
+]
+[u S145 . 1 `S133 1 . 1 0 `S140 1 . 1 0 ]
+[v _FVRCONbits FVRCONbits `VES145  1 e 1 @279 ]
+[s S475 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB4 1 0 :1:4 
+`uc 1 ANSB5 1 0 :1:5 
+]
+"2565
+[s S479 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 ANSB 1 0 :4:4 
+]
+[u S482 . 1 `S475 1 . 1 0 `S479 1 . 1 0 ]
+[v _ANSELBbits ANSELBbits `VES482  1 e 1 @397 ]
+[s S46 . 1 `uc 1 ANSC0 1 0 :1:0 
+`uc 1 ANSC1 1 0 :1:1 
+`uc 1 ANSC2 1 0 :1:2 
+`uc 1 ANSC3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 ANSC6 1 0 :1:6 
+`uc 1 ANSC7 1 0 :1:7 
+]
+"2604
+[s S54 . 1 `uc 1 ANSELC 1 0 :8:0 
+]
+[u S56 . 1 `S46 1 . 1 0 `S54 1 . 1 0 ]
+[v _ANSELCbits ANSELCbits `VES56  1 e 1 @398 ]
+"2868
+[v _TXREG TXREG `VEuc  1 e 1 @410 ]
+"2888
+[v _SPBRG SPBRG `VEus  1 e 2 @411 ]
+[s S311 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"2952
+[u S320 . 1 `S311 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES320  1 e 1 @413 ]
+[s S214 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"3014
+[u S223 . 1 `S214 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES223  1 e 1 @414 ]
+[s S238 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"3076
+[u S247 . 1 `S238 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES247  1 e 1 @415 ]
+[s S859 . 1 `uc 1 SSPBUF 1 0 :8:0 
+]
+"3215
+[u S861 . 1 `S859 1 . 1 0 ]
+[v _SSP1BUFbits SSP1BUFbits `VES861  1 e 1 @529 ]
+[s S656 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+"3336
+[u S665 . 1 `S656 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES665  1 e 1 @532 ]
+"3391
+[v _SSPSTATbits SSPSTATbits `VES665  1 e 1 @532 ]
+[s S621 . 1 `uc 1 SSP1M0 1 0 :1:0 
+`uc 1 SSP1M1 1 0 :1:1 
+`uc 1 SSP1M2 1 0 :1:2 
+`uc 1 SSP1M3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3619
+[s S630 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 SSP1EN 1 0 :1:5 
+`uc 1 SSP1OV 1 0 :1:6 
+]
+[u S635 . 1 `S621 1 . 1 0 `S630 1 . 1 0 ]
+[v _SSPCON1bits SSPCON1bits `VES635  1 e 1 @533 ]
+"7053
+[v _RC4 RC4 `VEb  1 e 0 @116 ]
+"45 C:\Users\User\MPLABXProjects\VUmeter2.2.X\main.c
+[v _bgRow bgRow `uc  1 e 1 0 ]
+[v _bgCol bgCol `uc  1 e 1 0 ]
+"48
+[v _backGrnd backGrnd `[6][84]uc  1 e 504 @8696 ]
+"58
+[v _main main `(v  1 e 1 0 ]
+{
+[s S728 . 2 `uc 1 page 1 0 `uc 1 byte 1 1 ]
+"66
+[v main@ypixel ypixel `S728  1 a 2 25 ]
+"62
+[v main@radius radius `s  1 a 2 23 ]
+[v main@xcoord xcoord `s  1 a 2 21 ]
+[v main@ycoord ycoord `s  1 a 2 19 ]
+[v main@adjacent adjacent `s  1 a 2 17 ]
+[v main@opposite opposite `s  1 a 2 15 ]
+"170
+} 0
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeData.c
+[v _writeData writeData `(v  1 e 1 0 ]
+{
+[v writeData@byte byte `uc  1 a 1 wreg ]
+[v writeData@byte byte `uc  1 a 1 wreg ]
+"5
+[v writeData@byte byte `uc  1 a 1 1 ]
+"9
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\select0To47.c
+[v _select0To47 select0To47 `(v  1 e 1 0 ]
+{
+[v select0To47@row row `s  1 p 2 0 ]
+[s S728 . 2 `uc 1 page 1 0 `uc 1 byte 1 1 ]
+[v select0To47@ptr ptr `*.4S728  1 p 1 2 ]
+"216
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configSPI.c
+[v _configSPI configSPI `(v  1 e 1 0 ]
+{
+"30
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPins.c
+[v _configPins configPins `(v  1 e 1 0 ]
+{
+"69
+} 0
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configPCD8544.c
+[v _configPCD8544 configPCD8544 `(v  1 e 1 0 ]
+{
+"6
+[v configPCD8544@y y `uc  1 a 1 3 ]
+"53
+} 0
+"3 C:\Users\User\MPLABXProjects\VUmeter2.2.X\writeCommand.c
+[v _writeCommand writeCommand `(v  1 e 1 0 ]
+{
+[v writeCommand@byte byte `uc  1 a 1 wreg ]
+[v writeCommand@byte byte `uc  1 a 1 wreg ]
+"5
+[v writeCommand@byte byte `uc  1 a 1 1 ]
+"9
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\sendSPIbyte.c
+[v _sendSPIbyte sendSPIbyte `(v  1 e 1 0 ]
+{
+[v sendSPIbyte@byte byte `uc  1 a 1 wreg ]
+[v sendSPIbyte@byte byte `uc  1 a 1 wreg ]
+"5
+[v sendSPIbyte@byte byte `uc  1 a 1 0 ]
+"9
+} 0
+"31 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configOsc.c
+[v _configOsc configOsc `(v  1 e 1 0 ]
+{
+"44
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configEUSART.c
+[v _configEUSART configEUSART `(v  1 e 1 0 ]
+{
+"12
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configBaud.c
+[v _configBaud configBaud `(v  1 e 1 0 ]
+{
+"7
+} 0
+"2 C:\Users\User\MPLABXProjects\VUmeter2.2.X\configADC.c
+[v _configADC configADC `(v  1 e 1 0 ]
+{
+"67
+} 0
+"15 C:\Program Files\Microchip\xc8\v2.36\pic\sources\c99\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 4 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 0 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 2 ]
+"53
+} 0
